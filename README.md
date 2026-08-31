@@ -1,5 +1,5 @@
 # Hybrid Search Engine
-A search engine built from the ground up, without Elasticsearch, Lucene, or any other retrieval framework doing the heavy lifting. Every core piece the inverted index, the ranking algorithms, the data structures, the crawler, the vector search, even the rate limiter is hand-written, so the goal was never just "make search work," it was to understand *why* it works.
+A search engine built from the ground up, without Elasticsearch, Lucene, or any other retrieval framework doing the heavy lifting. Every core piece the inverted index, the ranking algorithms, the data structures, the crawler, the vector search, even the rate limiter is hand-written, so the goal was never just "make search work," it was to understand why it works.
 
 The project starts with classical information retrieval (tokenization, inverted indexes, BM25) and builds up to a hybrid engine that blends keyword search with semantic vector search, wrapped in a FastAPI backend and a React frontend.
 
