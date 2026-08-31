@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# data & indexes
+data/raw/*
+data/processed/*
+data/crawled/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/crawled/.gitkeep
+*.idx
+*.bin
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# env
+.env
+.env.local
+
+# OS
+.DS_Store

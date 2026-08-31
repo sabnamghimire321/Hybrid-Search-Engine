@@ -1,0 +1,16 @@
+[project]
+name = "hybrid-search-engine"
+version = "0.1.0"
+description = "Distributed hybrid search engine: classical IR + neural semantic search, built from scratch."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
