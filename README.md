@@ -17,9 +17,9 @@ The project starts with classical information retrieval (tokenization, inverted 
 
 ## Why build it from scratch
 
-Most people never see what's inside a search engine — you send a query to Elasticsearch and results come back. That's great for shipping products, but it hides the actual engineering: how an inverted index is structured, why BM25 beats raw TF-IDF, what a memory-mapped file buys you over a Python dict, why threading helps I/O-bound crawling but does nothing for CPU-bound indexing.
+Most people never see what's inside a search engine you send a query to Elasticsearch and results come back. That's great for shipping products, but it hides the actual engineering: how an inverted index is structured, why BM25 beats raw TF-IDF, what a memory-mapped file buys you over a Python dict, why threading helps I/O-bound crawling but does nothing for CPU-bound indexing.
 
-So this project takes the slower path: implement the real thing first, benchmark it, understand where it breaks, and only then think about what a production system like Lucene does differently. The `docs/benchmarks` and `docs/research` folders exist for exactly this — measured comparisons instead of assumptions.
+So this project takes the slower path: implement the real thing first, benchmark it, understand where it breaks, and only then think about what a production system like Lucene does differently. The `docs/benchmarks` and `docs/research` folders exist for exactly this measured comparisons instead of assumptions.
 
 ## Architecture
 
